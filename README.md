@@ -1,1 +1,1 @@
-A web based helper application for generating certificates for student promotions. Primary technologies used: Knockout.js, Express, NodeJS and MongoDB.
+A web based helper application that generates certificates for student promotions. Primary technologies used: Knockout.js, Express, NodeJS and MongoDB.
