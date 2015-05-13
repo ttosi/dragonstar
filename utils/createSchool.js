@@ -92,6 +92,7 @@ prompt.get(input, function (err, result) {
 	
 	db.school.insert(result, function (err) {
 		console.log("School successfully created.");
+		console.log("Access key: " + result.key);
 		process.exit();
 	});
 });

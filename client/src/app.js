@@ -1,4 +1,4 @@
-var serviceUrl = '[url-of-server]';
+var serviceUrl = 'http://tdc2.turningdigital.com:1400';
 
 $(function () {
 	'use strict';
