@@ -59,7 +59,7 @@ $(function () {
 			}
 		};
 
-		self.save = function (a, b, c, d) {
+		self.save = function () {
 			self.saveToServer(false)
 		};
 		
