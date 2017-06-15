@@ -13,6 +13,7 @@ var db = mongojs('dragonstar', [ 'school' ]),
 				   'May', 'June', 'July', 'August', 'September',
 				   'October', 'November', 'December' ];
 
+// configure express
 app.use('/client', express.static(__dirname + '/client'));
 app.use(favicon(__dirname + '/client/favicon.ico'));
 app.use(bodyParser.json());
